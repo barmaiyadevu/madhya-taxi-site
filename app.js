@@ -1,4 +1,4 @@
-const repo = "YOUR_GITHUB_REPO"; // e.g., "anjli/madhya-taxi-site"
+const repo = "barmaiyadevu/madhya-taxi-site"
 const listingsEl = document.getElementById('listings');
 const addTaxiBtn = document.getElementById('addTaxiBtn');
 
@@ -85,3 +85,4 @@ addTaxiBtn.addEventListener('click', openPrefilledIssue);
 
 // load on start
 loadTaxis();
+
