@@ -1,0 +1,12 @@
+body{font-family:system-ui,-apple-system,Segoe UI,Roboto,Helvetica,Arial;max-width:980px;margin:20px auto;padding:0 16px;color:#111}
+header{display:flex;align-items:center;justify-content:space-between;gap:12px}
+h1{margin:0;font-size:20px}
+.actions{margin-left:auto}
+button{background:#0b6ef6;color:white;border:none;padding:8px 12px;border-radius:6px;cursor:pointer}
+#listings{display:grid;grid-template-columns:1fr;gap:14px;margin-top:18px}
+.card{border:1px solid #e6e6e6;padding:12px;border-radius:8px;display:flex;gap:12px}
+.card img{width:160px;height:100px;object-fit:cover;border-radius:6px}
+.card .meta{flex:1}
+.featured{border:2px solid #ffb703}
+.contact a{display:inline-block;margin-right:8px}
+small{color:#666}
